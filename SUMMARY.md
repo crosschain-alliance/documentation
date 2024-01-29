@@ -6,6 +6,7 @@
 * [Deployment](v0.1/deployment.md)
 * [Application](v0.1/application/README.md)
   * [FRAGOLA](v0.1/application/fragola.md)
+  * [Safe Junction with OFT](v0.1/application/safe-junction-with-oft.md)
   * [Safe Junction with xERC20](v0.1/application/safe-junction-with-xerc20.md)
   * [Safe with Hashi](v0.1/application/safe-with-hashi.md)
 * [Tutorial](v0.1/tutorial/README.md)
