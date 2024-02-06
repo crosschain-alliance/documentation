@@ -1,5 +1,7 @@
 # Introduction
 
+<figure><img src=".gitbook/assets/HASHI-Logo-inverted.png" alt=""><figcaption></figcaption></figure>
+
 ## What is Hashi
 
 Hashi is an EVM Hash Oracle Aggregator, designed to facilitate [a principled approach to cross-chain bridge security.](https://ethresear.ch/t/hashi-a-principled-approach-to-bridges/14725)
