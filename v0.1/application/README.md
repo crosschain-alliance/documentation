@@ -1,6 +1,8 @@
-# Application
+# Applications
 
-
+{% content-ref url="hashi-dvn.md" %}
+[hashi-dvn.md](hashi-dvn.md)
+{% endcontent-ref %}
 
 {% content-ref url="hashi-ism.md" %}
 [hashi-ism.md](hashi-ism.md)
