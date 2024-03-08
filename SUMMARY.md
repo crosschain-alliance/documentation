@@ -20,3 +20,4 @@
 ## v0.2
 
 * [Introduction](v0.2/introduction.md)
+* [Deployment](v0.2/deployment.md)
