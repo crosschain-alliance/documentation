@@ -1,4 +1,4 @@
-# Safe with Hashi
+# 🔐 Safe with Hashi
 
 <figure><img src="../../.gitbook/assets/diagram (1) (1).png" alt=""><figcaption><p>Safe with Hashi</p></figcaption></figure>
 

@@ -1,4 +1,4 @@
-# Create a new adapter
+# 🐓 Create a new adapter
 
 Integrating a new adapter into Hashi enhances the security of the overall architecture.
 

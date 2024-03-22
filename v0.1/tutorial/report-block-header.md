@@ -1,4 +1,4 @@
-# Report block header
+# 🐿️ Report block header
 
 You may call a block header reporter to report and store the block hash, if the block you are looking for is not yet stored by the adapter.
 

@@ -1,4 +1,4 @@
-# Message Dispatching using Yaru and Yaho
+# 🐬 Message Dispatching using Yaru and Yaho
 
 For relaying arbitrary message between Ethereum/Goerli and Gnosis Chain, several contracts need to be deployed on top of the [current AMB deployments](https://docs.gnosischain.com/bridges/hashi/#goerli---gnosis-chain): Yaho, Yaru, AMB Message Relay, AMB Adapter, and Hashi. The addresses from this article are for Goerli <-> Gnosis Chain.
 

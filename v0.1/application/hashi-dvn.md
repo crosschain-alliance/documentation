@@ -2,7 +2,7 @@
 description: Hashi integration of Layer Zero v2 DVN
 ---
 
-# Hashi DVN
+# 🍩 Hashi DVN
 
 <figure><img src="../../.gitbook/assets/DVN-Hashi-Flow.png" alt=""><figcaption></figcaption></figure>
 

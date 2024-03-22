@@ -2,7 +2,7 @@
 description: Hashi integration of Hyperlane ISM
 ---
 
-# Hashi ISM
+# 🧑‍🚀 Hashi ISM
 
 
 

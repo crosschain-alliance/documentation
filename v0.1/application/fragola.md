@@ -5,7 +5,7 @@ description: >-
   on a different chain.
 ---
 
-# FRAGOLA
+# 🍓 FRAGOLA
 
 <figure><img src="../../.gitbook/assets/diagram (2) (1).png" alt=""><figcaption><p>FRAGOLA  Architecture</p></figcaption></figure>
 

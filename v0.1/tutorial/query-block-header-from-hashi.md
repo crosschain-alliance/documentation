@@ -1,4 +1,4 @@
-# Query block header from Hashi
+# 🐛 Query block header from Hashi
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 

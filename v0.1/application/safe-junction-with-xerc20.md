@@ -1,4 +1,4 @@
-# Safe Junction with xERC20
+# 💡 Safe Junction with xERC20
 
 <figure><img src="../../.gitbook/assets/diagram (3).png" alt=""><figcaption><p>Architecture</p></figcaption></figure>
 
