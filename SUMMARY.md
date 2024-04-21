@@ -22,3 +22,4 @@
 
 * [Introduction](v0.2/introduction.md)
 * [Deployment](v0.2/deployment.md)
+* [Audit report](v0.2/audit-report.md)
