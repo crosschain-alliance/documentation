@@ -29,7 +29,7 @@ In v1.0, the `Message` struct included basic fields:
 The new `Message` struct in v2.0 has been expanded to include more specific details, making each message request more comprehensive, customizable, and secure.
 
 ```jsx
-jsxCopy codestruct Message {
+Message {
     uint256 nonce;
     uint256 targetChainId;
     uint256 threshold;
@@ -59,7 +59,7 @@ The new structure ensures that messages are not only unique but can also be veri
 In v1.0, the message hash was calculated using a combination of various fields, which made the process more complex.
 
 ```jsx
-Hash = keccak256(abi.encode(uint256 chainId, uint256 id, address origin, address sender, Message message));
+bytes32 Hash = keccak256(abi.encode(uint256 chainId, uint256 id, address origin, address sender, Message message));
 ```
 
 * The hash included the chain ID, message ID, origin, sender, and the message itself.
@@ -69,7 +69,7 @@ Hash = keccak256(abi.encode(uint256 chainId, uint256 id, address origin, address
 In v2.0, the calculation has been simplified to improve efficiency and reduce potential errors. The hash is now computed by ABI encoding and hashing the entire `Message` struct.
 
 ```jsx
-Hash = keccak256(abi.encode(Message message));
+bytes32 Hash = keccak256(abi.encode(Message message));
 ```
 
 **3. Renaming for Clarity**
@@ -87,7 +87,8 @@ Hash = keccak256(abi.encode(Message message));
 
 **Now in v2.0:** These roles have been merged into a single, more streamlined role:
 
-* **Reporter:** A unified role that initiates can relay both message headers and mesage hashes.
+* **Reporter:** A role that can relay both block headers and message hashes from the source chain.  `dispatchBlocks` function relays block headers from reporter, while `dispatchMessages` function relays arbitrary message hashes. Internal function `_dispatch` is called and [Hashi adapters](https://github.com/gnosis/hashi/tree/feat/v0.2.0/packages/evm/contracts/adapters) are free to define their message passing logic in this function.
+* **Adapter**: A role that store hashes from reporter on the destination chain. Internal function `_storeHash` is called eventually to store hashes from reporters.
 
 #### Summary
 
