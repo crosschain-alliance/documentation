@@ -12,6 +12,7 @@
   * [🌄 Safe Junction with OFT](v0.1/application/safe-junction-with-oft.md)
   * [💡 Safe Junction with xERC20](v0.1/application/safe-junction-with-xerc20.md)
   * [🔐 Safe with Hashi](v0.1/application/safe-with-hashi.md)
+  * [🦺 Safe with Hashi & Axiom](v0.1/application/safe-with-hashi-and-axiom.md)
 * [Tutorials](v0.1/tutorial/README.md)
   * [🐬 Message Dispatching using Yaru and Yaho](v0.1/tutorial/message-dispatching-using-yaru-and-yaho.md)
   * [🐓 Create a new adapter](v0.1/tutorial/create-a-new-adapter.md)
