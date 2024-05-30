@@ -1,7 +1,7 @@
 ---
 description: >-
-  By using axiom, we decreased by approximately 6x the cost to execute a cross
-  chain safe operation.
+  By using Axiom, we decreased by approximately 6x the cost to execute a cross
+  chain Safe operation.
 ---
 
 # 🦺 Safe with Hashi & Axiom
