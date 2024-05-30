@@ -8,8 +8,6 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-05-29 at 15.53.38.png" alt=""><figcaption><p>Workflow</p></figcaption></figure>
 
-
-
 ## Overview
 
 This is a PoC of how [Axiom](https://docs.axiom.xyz/) can be used on top of our original [Safe with Hashi](safe-with-hashi.md) project. Leveraging Axiom's V2 query and ZK verification on chain, any transaction initiated from the Main Safe can be executed trustlessly on the Secondary Safe.
@@ -29,4 +27,5 @@ This is a PoC of how [Axiom](https://docs.axiom.xyz/) can be used on top of our 
 ### Reference&#x20;
 
 1. [https://github.com/crosschain-alliance/safe-crosschain/tree/feat/axiom](https://github.com/crosschain-alliance/safe-crosschain/tree/feat/axiom)
+2. [Video demo](https://rose-working-giraffe-362.mypinata.cloud/ipfs/QmRYzd8Gt8cNuWoviDvDTAehDxNSCj1QEJzpq6atuqkjou)
 
