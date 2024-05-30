@@ -1,3 +1,9 @@
+---
+description: >-
+  By using axiom, we decreased by approximately 6x the cost to execute a cross
+  chain safe operation.
+---
+
 # 🦺 Safe with Hashi & Axiom
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-05-29 at 15.53.38.png" alt=""><figcaption><p>Workflow</p></figcaption></figure>
