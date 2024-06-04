@@ -1,8 +1,8 @@
-# 💡 Safe Junction with xERC20
+# 💡 HashiTokenBridge with xERC20
 
 <figure><img src="../../.gitbook/assets/diagram (3).png" alt=""><figcaption><p>Architecture</p></figcaption></figure>
 
-## Safe Junction with xERC20
+
 
 #### How it works
 

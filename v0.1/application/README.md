@@ -12,12 +12,12 @@
 [fragola.md](fragola.md)
 {% endcontent-ref %}
 
-{% content-ref url="safe-junction-with-oft.md" %}
-[safe-junction-with-oft.md](safe-junction-with-oft.md)
+{% content-ref url="hashitokenbridge-with-oft.md" %}
+[hashitokenbridge-with-oft.md](hashitokenbridge-with-oft.md)
 {% endcontent-ref %}
 
-{% content-ref url="safe-junction-with-xerc20.md" %}
-[safe-junction-with-xerc20.md](safe-junction-with-xerc20.md)
+{% content-ref url="hashitokenbridge-with-xerc20.md" %}
+[hashitokenbridge-with-xerc20.md](hashitokenbridge-with-xerc20.md)
 {% endcontent-ref %}
 
 {% content-ref url="safe-with-hashi.md" %}
