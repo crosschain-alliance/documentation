@@ -1,6 +1,6 @@
 ---
 description: >-
-  By using Axiom, we decreased by approximately 6x the cost to execute a cross
+  By using Axiom, we decreased by approximately 2x the cost to execute a cross
   chain Safe operation.
 ---
 
