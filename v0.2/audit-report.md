@@ -8,7 +8,7 @@
 
 
 
-## Hashi-Gnosis bridge integration
+## Gnosis bridge-Hashi integration
 
 ### Omega (Jun 24)
 
@@ -16,14 +16,10 @@
 
 ### Least Authority (Jun 24)
 
-(intermediate reports, final pending)
 
 
-
-{% file src="../.gitbook/assets/Least Authority-Gnosis Hash Audit Report.pdf" %}
+{% file src="../.gitbook/assets/Least Authority-Gnosis Hashi Final Audit Report.pdf" %}
 
 ### g0 (Jun 24)&#x20;
 
-(intermediate reports, final pending)
-
-{% file src="../.gitbook/assets/g0 - Gnosis Hashi Audit Report.pdf" %}
+{% file src="../.gitbook/assets/g0-Gnosis-Hashi Final Audit Report.pdf" %}
