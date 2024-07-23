@@ -4,13 +4,11 @@ description: Contract addresses on mainnet and testnet.
 
 # Deployment
 
-
-
 ## Mainnet
 
 
 
-<figure><img src="../.gitbook/assets/Hashiv0.2Deployments.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Update-Hashiv0.2.png" alt=""><figcaption></figcaption></figure>
 
 Note:
 
@@ -23,38 +21,17 @@ Note:
 
 ### Oracle: Layer Zero&#x20;
 
-Reporter dispatch blocks or message from source chain, and Adapter store hash on the destination chain.&#x20;
+Reporter dispatches blocks or messages from source chain, and Adapter stores hash on the destination chain.&#x20;
 
-#### Source Chain: Ethereum
+#### Reporter
 
-Reporter: [0xbc5f67da5347cd4304e9623bc86e71a874287ea1](https://etherscan.io/address/0xbc5f67da5347cd4304e9623bc86e71a874287ea1)
+<table><thead><tr><th width="138">Chain</th><th>Reporter Address</th><th>Supported Destination Chain</th></tr></thead><tbody><tr><td>Ethereum</td><td> <a href="https://etherscan.io/address/0xbc5f67da5347cd4304e9623bc86e71a874287ea1">0xbc5f67da5347cd4304e9623bc86e71a874287ea1</a></td><td>Polygon, BNB, Arbitrum, Optimism, Base</td></tr><tr><td>Polygon</td><td> <a href="https://polygonscan.com/address/0x147Abe85112154b3D5bF55d10cEE64aeD0279479#code">0x147Abe85112154b3D5bF55d10cEE64aeD0279479</a></td><td>Gnosis, BNB, Arbitrum, Optimism, Base</td></tr><tr><td>BNB</td><td><a href="https://bscscan.com/address/0x3E80f3987A570eC1C5c91e982dc88FCC01f4aA11#code">0x3E80f3987A570eC1C5c91e982dc88FCC01f4aA11</a></td><td>Gnosis, Polygon, Arbitrum, Optimism, Base</td></tr><tr><td>Arbitrum</td><td><a href="https://arbiscan.io/address/0x3da176b43604Aacf6178128865AfccB21ee0F943#code">0x3da176b43604Aacf6178128865AfccB21ee0F943</a></td><td>Gnosis, Polygon, BNB, Optimism, Base</td></tr><tr><td>Optimism</td><td><a href="https://optimistic.etherscan.io/address/0xd60899683383E53AB8807F0cD34e3a6Dd6dF66a3#code">0xd60899683383E53AB8807F0cD34e3a6Dd6dF66a3</a></td><td>Gnosis, Polygon, BNB, Arbitrum, Base</td></tr></tbody></table>
 
-Destination Chain:&#x20;
+#### Adapter
 
-<table><thead><tr><th width="150">Chain</th><th>Adapter address</th></tr></thead><tbody><tr><td>Polygon</td><td><a href="https://polygonscan.com/address/0x998dA7f6cF98541E4F4469cc9d53B9374F186591#writeContract">0x998dA7f6cF98541E4F4469cc9d53B9374F186591</a></td></tr><tr><td>BNB</td><td><a href="https://bscscan.com/address/0xDbdF80c87f414fac8342e04D870764197bD3bAC7#writeContract">0xDbdF80c87f414fac8342e04D870764197bD3bAC7</a></td></tr><tr><td>Arbitrum</td><td><a href="https://arbiscan.io/address/0xA86bc62Ac53Dc86687AB6C15fdebC71ad51fB615#writeContract">0xA86bc62Ac53Dc86687AB6C15fdebC71ad51fB615</a></td></tr><tr><td>Optimism</td><td><a href="https://optimistic.etherscan.io/address/0xA86bc62Ac53Dc86687AB6C15fdebC71ad51fB615#code">0xA86bc62Ac53Dc86687AB6C15fdebC71ad51fB615</a></td></tr><tr><td>Base</td><td><a href="https://basescan.org/address/0xA86bc62Ac53Dc86687AB6C15fdebC71ad51fB615#code">0xA86bc62Ac53Dc86687AB6C15fdebC71ad51fB615</a></td></tr></tbody></table>
-
-#### Source Chain: Polygon
-
-Reporter: [0x147Abe85112154b3D5bF55d10cEE64aeD0279479](https://polygonscan.com/address/0x147Abe85112154b3D5bF55d10cEE64aeD0279479#code)
-
-Destination Chain:
-
-<table><thead><tr><th width="161">Chain</th><th>Adapter address</th></tr></thead><tbody><tr><td>BNB </td><td><a href="https://bscscan.com/address/0xce5C452cf0Ad9a2e27e3077A36639D197b9BF549#code">0xce5C452cf0Ad9a2e27e3077A36639D197b9B</a></td></tr><tr><td>Gnosis Chain</td><td><a href="https://gnosisscan.io/address/0xC82e50cc90C84DC492B4Beb6792DEeB496d52424">0xC82e50cc90C84DC492B4Beb6792DEeB496d52424</a></td></tr><tr><td>Arbitrum</td><td><a href="https://arbiscan.io/address/0xfe2bafe5aCA5bF884F8a9148535F11B46f6D1c8f#writeContract">0xfe2bafe5aCA5bF884F8a9148535F11B46f6D1c8f</a></td></tr><tr><td>Optimism</td><td><a href="https://optimistic.etherscan.io/address/0xfe2bafe5aCA5bF884F8a9148535F11B46f6D1c8f#writeContract">0xfe2bafe5aCA5bF884F8a9148535F11B46f6D1c8f</a></td></tr><tr><td>Base</td><td><a href="https://basescan.org/address/0x998dA7f6cF98541E4F4469cc9d53B9374F186591#writeContract">0x998dA7f6cF98541E4F4469cc9d53B9374F186591</a></td></tr></tbody></table>
-
-#### Source Chain: Optimism
-
-Reporter: [0xd60899683383E53AB8807F0cD34e3a6Dd6dF66a3](https://optimistic.etherscan.io/address/0xd60899683383E53AB8807F0cD34e3a6Dd6dF66a3#code)
-
-Destination Chain:\
+<table><thead><tr><th width="139">Chain</th><th>Adapter Address</th><th>Supported Source Chain</th></tr></thead><tbody><tr><td>Gnosis Chain</td><td><a href="https://gnosisscan.io/address/0xC82e50cc90C84DC492B4Beb6792DEeB496d52424">0xC82e50cc90C84DC492B4Beb6792DEeB496d52424</a></td><td>Polygon, BNB, Arbitrum, Optimism</td></tr><tr><td>Polygon</td><td><a href="https://polygonscan.com/address/0x998dA7f6cF98541E4F4469cc9d53B9374F186591#writeContract">0x998dA7f6cF98541E4F4469cc9d53B9374F186591</a></td><td>Ethereum, BNB, Arbitrum, Optimism</td></tr><tr><td>BNB</td><td><a href="https://bscscan.com/address/0xDbdF80c87f414fac8342e04D870764197bD3bAC7#writeContract">0xDbdF80c87f414fac8342e04D870764197bD3bAC7</a></td><td>Ethereum, Polygon,Arbitrum, Optimism</td></tr><tr><td>Arbitrum</td><td><a href="https://arbiscan.io/address/0xA86bc62Ac53Dc86687AB6C15fdebC71ad51fB615#writeContract">0xA86bc62Ac53Dc86687AB6C15fdebC71ad51fB615</a></td><td>Ethereum, Polygon, BNB, Optimism</td></tr><tr><td>Optimism</td><td><a href="https://optimistic.etherscan.io/address/0xA86bc62Ac53Dc86687AB6C15fdebC71ad51fB615#code">0xA86bc62Ac53Dc86687AB6C15fdebC71ad51fB615</a></td><td>Ethereum, Polygon, BNB, Arbitrum</td></tr><tr><td>Base</td><td><a href="https://basescan.org/address/0xA86bc62Ac53Dc86687AB6C15fdebC71ad51fB615#code">0xA86bc62Ac53Dc86687AB6C15fdebC71ad51fB615</a></td><td>Ethereum, Polygon, BNB, Arbitrum, Optimism</td></tr></tbody></table>
 
 
-| Chain        | Adapter address                                                                                                                        |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Gnosis Chain | [0x998dA7f6cF98541E4F4469cc9d53B9374F186591](https://gnosisscan.io/address/0x998dA7f6cF98541E4F4469cc9d53B9374F186591#writeContract)   |
-| Polygon      | [0xbC5F67dA5347CD4304e9623BC86E71a874287eA1](https://polygonscan.com/address/0xbC5F67dA5347CD4304e9623BC86E71a874287eA1#writeContract) |
-| BNB          | [0xa1b22fBEEc4f554b39B7E3466Af260Ed3FcF35FF](https://bscscan.com/address/0xa1b22fBEEc4f554b39B7E3466Af260Ed3FcF35FF#writeContract)     |
-| Base         | [0x147Abe85112154b3D5bF55d10cEE64aeD0279479](https://basescan.org/address/0x147Abe85112154b3D5bF55d10cEE64aeD0279479#writeContract)    |
-| Arbitrum     | [0xd60899683383E53AB8807F0cD34e3a6Dd6dF66a3](https://arbiscan.io/address/0xd60899683383E53AB8807F0cD34e3a6Dd6dF66a3#writeContract)     |
 
 ### Oracle: AMB
 
@@ -65,6 +42,8 @@ Reporter: [0xDbdF80c87f414fac8342e04D870764197bD3bAC7](https://etherscan.io/addr
 Destination Chain: Gnosis Chain
 
 Adapter: [0x79e4D1B8b8De0bC2F8A3DC477480C935C66F373E](https://gnosisscan.io/address/0x79e4D1B8b8De0bC2F8A3DC477480C935C66F373E)
+
+
 
 ## Testnet
 
