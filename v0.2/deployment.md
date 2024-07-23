@@ -8,7 +8,7 @@ description: Contract addresses on mainnet and testnet.
 
 
 
-<figure><img src="../.gitbook/assets/Update-Hashiv0.2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/hiashiv0.2.png" alt=""><figcaption></figcaption></figure>
 
 Note:
 
