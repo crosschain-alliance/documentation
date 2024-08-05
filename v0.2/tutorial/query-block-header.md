@@ -205,4 +205,14 @@ In this example, we check the adapter contract on [Polygon](https://polygon.tech
 3. `getHashFromAdapter` : Return bytes32 hash, check whether a specific adapter store hash w.r.t a domain & id.
 4. `getHashesFromAdapters` : Return bytes32\[] hash, check hash from each adapters w.r.t the same domain & id.
 
-For more details about the Hashi contract, check out [Hashi.sol](https://github.com/gnosis/hashi/blob/feat/v0.2.0/packages/evm/contracts/Hashi.sol).
+For more details about the Hashi contract, check out [Hashi.sol](https://github.com/gnosis/hashi/blob/feat/v0.2.0/packages/evm/contracts/Hashi.sol).\
+
+
+#### How to check if a block hash of block number X has been dispatched?
+
+1. To check if a block number has been dispatched, you need to filter out the `BlockDispatched` from the reporter contract of the source chain. For a specific target chain, includes `targetChainId` in the filter argument.
+2. Once you get the logs, you can check which block number has been dispatched from the source reporter contract to your destination adapter contract in the indexed block number event argument.&#x20;
+3. Incidents might happen where the source reporter contract dispatches block and event `BlockDispatched` event correctly, but the block hash is not stored on the destination adapter contract, due to error from the oracle. You can check the status of the oracle by using tool provided by the oracles, for example:
+   1. LayerZero: [https://layerzeroscan.com/](https://layerzeroscan.com/)
+   2. AMB: [https://bridge.gnosischain.com/bridge-explorer](https://bridge.gnosischain.com/bridge-explorer)
+   3. Hyperlane: [https://explorer.hyperlane.xyz/](https://explorer.hyperlane.xyz/)&#x20;
