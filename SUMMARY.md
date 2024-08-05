@@ -23,4 +23,6 @@
 
 * [Introduction](v0.2/introduction.md)
 * [Deployment](v0.2/deployment.md)
+* [Tutorial](v0.2/tutorial/README.md)
+  * [Query Block Header](v0.2/tutorial/query-block-header.md)
 * [Audit report](v0.2/audit-report.md)
