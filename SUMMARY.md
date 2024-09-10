@@ -26,3 +26,4 @@
 * [Tutorial](v0.2/tutorial/README.md)
   * [Query Block Header](v0.2/tutorial/query-block-header.md)
 * [Audit report](v0.2/audit-report.md)
+* [Glossary](v0.2/glossary.md)
